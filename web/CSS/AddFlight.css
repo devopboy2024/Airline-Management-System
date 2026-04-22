@@ -1,0 +1,54 @@
+
+body.bb {
+    background-repeat: no-repeat;
+    background-image: url(../IMG/bgplane.jpg);
+   /*background-color:red;*/
+   background-size: cover;
+
+    /* Set your desired background color for the entire body */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.formBox {
+    background-color: #f2f2f2; /* Set your desired background color for the form box */
+    background-repeat: no-repeat;
+    background-image: url(../IMG/header.jpg);
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border-top-style: dotted; */
+    border-style: groove;
+    border-width: 5px;
+    border-color: red green blue yellow;
+}
+form h1{
+    text-transform:unset;
+    border-left: 20px  solid red;
+    border-right: 20px solid red;
+    padding: 0px 0px 0px 5px;
+}
+.section {
+    margin-top: 80px;
+}
+
+.inputbox {
+    font-size: 15px;
+    font-style: inherit;
+    text-transform: uppercase;
+}
+
+.input {
+    /* Add styles for input if needed */
+}
+
+.btn input {
+    background-color: blueviolet; /* Set your desired background color for the button */
+    backface-visibility: visible;
+    margin: auto;
+    text-align: justify;
+    text-transform:uppercase ;
+}

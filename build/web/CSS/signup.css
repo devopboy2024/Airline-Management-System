@@ -1,0 +1,131 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+    /* font-family:'baloo bhai',cursive; */
+    height: 400px;
+    width: 500px;
+    background:black;
+    padding: 25px 30px;
+    border-radius: 5px;
+    border-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.container .title {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom:40px ;
+    color:white;
+}
+
+
+
+.container form  .user-details{
+    text-align: center;
+    color: aliceblue;
+    padding:3px;
+    margin:2px;
+
+}
+.container form  .input-details{
+    text-align: center;
+    padding:3px;
+    margin:2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+
+
+}
+.container form  .details{
+    text-align: center;
+    padding:3px;
+    margin:2px;
+}
+.container .user-details .a1{
+    margin-left: 30px;
+    margin-top: 3px;
+    border-radius:4px;
+    background:transparent;
+    background-color:blanchedalmond;
+    padding: 3px;
+    padding-left: 30px;
+    background: transparent;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-color: azure;
+
+}
+
+/* .container .user-details .details:hover,.details.active{text-decoration: underline;
+    color: saddlebrown;
+}
+.container form .btn:hover,.btn.active{text-decoration: underline;
+    color: saddlebrown;
+} */
+.container form .btn{
+    background:#1e9bff;
+    border-radius:10px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom:5px ;
+    margin-top: 10px;
+    position: relative;
+    transition:0.5s;
+}
+.btn:hover{
+    background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}
+btn:before{
+    content: '';
+    position:absolute;
+    inset:2px;
+    background: #27282c;
+}
+.container form .details{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom:5px ;
+    margin-top: 10px;
+    position: relative;
+    transition:0.20s;
+}
+.details:hover{
+    background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 35px var(--clr);
+}
+.details:after{
+    content: '';
+    position:absolute;
+    inset:2px;
+
+    color:white;
+}
+
+
+
